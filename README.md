@@ -41,7 +41,9 @@ Just use `tik()` to start and `tok()` to stop and see how long a piece of code t
 ### Sample
 
 tik();
+
 your code
+
 tok();
 
 
