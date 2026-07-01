@@ -1,4 +1,7 @@
 # Laravel TikTok Timer ⏱️
+![Laravel](https://img.shields.io/badge/Laravel-10%2C11%2C12-red?style=flat&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue?style=flat&logo=php)
+
 
 یک پکیج ساده، سبک و کاربردی برای **اندازه‌گیری زمان اجرای کد** در Laravel.
 
@@ -15,23 +18,6 @@
 - ثبت در Log در محیط Production
 - نصب و راه‌اندازی بسیار آسان
 - قابل استفاده در همه جای Laravel
-
----
-
-## نصب
-
-```bash
-composer require e-yari/tik-tok
-
-
-## EN
-
-
-
-![Laravel](https://img.shields.io/badge/Laravel-10%2C11%2C12-red?style=flat&logo=laravel)
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue?style=flat&logo=php)
-
-**A simple & lightweight execution time measurement tool for Laravel**
 
 ---
 
