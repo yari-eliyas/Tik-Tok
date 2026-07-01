@@ -38,6 +38,12 @@ Just use `tik()` to start and `tok()` to stop and see how long a piece of code t
 ### Requirements
 - **PHP**: `^8.2`
 - **Laravel**: `^10.0 | ^11.0 | ^12.0`
+### Sample
+
+tik();
+your code
+tok();
+
 
 ### Installation
 
