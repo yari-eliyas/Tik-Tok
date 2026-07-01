@@ -22,3 +22,38 @@
 
 ```bash
 composer require e-yari/tik-tok
+
+
+## EN
+
+
+
+![Laravel](https://img.shields.io/badge/Laravel-10%2C11%2C12-red?style=flat&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue?style=flat&logo=php)
+
+**A simple & lightweight execution time measurement tool for Laravel**
+
+---
+
+## English
+
+**TikTok Timer** is a simple, lightweight package that helps you measure the execution time of your code in Laravel applications.
+
+Just use `tik()` to start and `tok()` to stop and see how long a piece of code takes.
+
+### Features
+- ⚡ Very lightweight (no dependencies)
+- 🎯 High precision using `hrtime()`
+- 🔖 Support for multiple named timers
+- 🖥️ Beautiful output in local/debug mode
+- 📝 Auto logging in production
+- 🌐 Works everywhere (Controllers, Models, Services, Jobs, Middleware, etc.)
+
+### Requirements
+- **PHP**: `^8.2`
+- **Laravel**: `^10.0 | ^11.0 | ^12.0`
+
+### Installation
+
+```bash
+composer require e-yari/tik-tok
