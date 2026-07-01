@@ -27,10 +27,12 @@ if (!function_exists('tok')) {
         if ($echo) {
             $message = sprintf("⏱️ [TikTok] [%s] → %.3f ms", $name, $durationMs);
             
-            if (app()->hasDebugModeEnabled() || config('app.debug')) {
-                dump($message);
+            if (function_exists('dump')) {
+                echo "<div style='background:#222; color:#0f0; padding:8px 12px; margin:5px 0; border-radius:4px; font-family:monospace;'>";
+                echo $message;
+                echo "</div>";
             } else {
-                \Log::info($message);
+                echo $message . PHP_EOL;
             }
         }
 
